@@ -41,5 +41,5 @@ def helper(problem):
         answer = str(int(problem[0]) - int(problem[2]))
     return answer
 
-#Note: The function has to be called inside a print() statement in order to work properly.
+#Note: The function has to be called inside a print() function in order to work properly.
 print(arithmetic_arranger(["3 + 855", "3801 - 2", "45 + 43", "123 + 49"], True))
